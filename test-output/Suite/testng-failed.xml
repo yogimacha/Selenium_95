@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="2" parallel="tests" name="TestCrome(failed)">
+    <parameter name="BROWSER" value="chrome"/>
+    <classes>
+      <class name="testNG.ByUsingCrossBrowser">
+        <methods>
+          <include name="start" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- testNG.ByUsingCrossBrowser -->
+    </classes>
+  </test> <!-- TestCrome(failed) -->
+</suite> <!-- Failed suite [Suite] -->
